@@ -1,0 +1,32 @@
+{
+  "name": "gridfs",
+  "version": "1.0.0",
+  "description": "Using GridFS to upload files on MongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkenjayev/Upload_files.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoDB",
+    "GridFS"
+  ],
+  "author": "jkenjayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkenjayev/Upload_files/issues"
+  },
+  "homepage": "https://github.com/jkenjayev/Upload_files#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "path": "^0.12.7"
+  }
+}
